@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(17, 120, 155);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 120px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right,lightblue,white,lightblue);
+}
+nav{
+    position: absolute;
+    top: 85px;
+}
+nav a:hover{
+    box-shadow: 4px 4px 4px black;
+    transition: 0.4s;
+}
+
+img{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+.video{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    opacity: 0.6;
+}
+.video:hover{
+    opacity: 1;
+    transition: 0.5;
+}
+header{
+    background-image:linear-gradient(to right,#1D2995,#9294A3);
+    height: 65px;
+    margin: -8px;
+}
+.text{
+    position: absolute;
+    top: 130px;
+    left: 290px;
+    color: white;
+}
+.text2{
+    position: absolute;
+    top: 130px;
+    left: 460px;
+    color: darkred;
+}
+.image{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.image2{
+    position: absolute;
+    top: 190px;
+    left: 550px;
+}
+header h1{
+    margin-top: 0px;
+    margin-left: 340px;
+    position: absolute;
+    top: 4px;
+    color: white;
+    font-size: 50px;
+}
+.text3{
+    position: absolute;
+    top: 460px;
+    left: 290px;
+    color: white;
+}
+.text4{
+    position: absolute;
+    top: 460px;
+    left: 460px;
+    color: darkred;
+}
+.video2{
+    position: absolute;
+    top: 530px;
+    left: 250px;
+    opacity: 0.6;
+}
+.video2:hover{
+    opacity: 1;
+    transition: 0.5;
+}
